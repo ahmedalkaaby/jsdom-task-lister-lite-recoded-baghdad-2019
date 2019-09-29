@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  console.log(todolist);
 });
 
 let input= document.getElementById("new-task-description");
@@ -16,4 +15,4 @@ function todo(event){
 }
 
 let sub= document.getElementById("btn");
-document.onsubmit=todo(event);
+sub.onsubmit=todo;
