@@ -15,4 +15,4 @@ function todo(event){
 }
 
 let sub= document.getElementById("btn");
-sub.onclick=todo(event);
+sub.onsubmit=todo(event);
