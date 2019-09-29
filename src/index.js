@@ -8,8 +8,9 @@ let list=document.getElementById("tasks");
 function todo(event){
   event.preventDefault();
   let inputval= input.value;
-  list=document.createElemen('li');
-  list
-  
+  let todolist=document.createElement('li');
+  todolist.innerHTML=inputval;
+  list.appendchild(todolist);
   
 }
+
