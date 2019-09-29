@@ -10,7 +10,7 @@ function todo(event){
   let inputval= input.value;
   let todolist=document.createElement('li');
   todolist.innerText=inputval;
-  list.appendchild(todolist);
+  list.appendChild(todolist);
   
 }
 
