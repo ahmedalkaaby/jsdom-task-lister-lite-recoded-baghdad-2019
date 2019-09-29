@@ -13,5 +13,5 @@ function todo(event){
   list.appendChild(todolist);
   
 }
-let s=document.getElementById("r");
-s.onclick=todo;
+let sub=document.getElementById("btn");
+sub.onclick=todo;
