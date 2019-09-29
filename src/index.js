@@ -16,4 +16,4 @@ function todo(event){
 }
 
 let sub= document.getElementById("btn");
-sub.onsubmit=todo(event);
+document.onsubmit=todo(event);
