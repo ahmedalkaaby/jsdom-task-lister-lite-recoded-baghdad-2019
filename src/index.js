@@ -9,7 +9,7 @@ function todo(event){
   event.preventDefault();
   let inputval= input.value;
   let todolist=document.createElement('li');
-  todolist.innerHTML=inputval;
+  todolist.innerText=inputval;
   list.appendchild(todolist);
   
 }
