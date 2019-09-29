@@ -7,7 +7,7 @@ let input= document.getElementById("new-task-description");
 let list=document.getElementById("tasks");
 
 function todo(event){
-  event.preventDefault();
+  e.preventDefault();
   let inputval= input.value;
   let todolist=document.createElement('li');
   todolist.innerText=inputval;
