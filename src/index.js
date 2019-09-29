@@ -3,9 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 let input= document.getElementById("new-task-description");
-function todo(){
-  document.preventDefault();
+function todo(event){
+  event.preventDefault();
   let inputval= input.value;
+  
   
   
 }
