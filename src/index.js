@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
+  console.log(todolist);
 });
 
 let input= document.getElementById("new-task-description");
